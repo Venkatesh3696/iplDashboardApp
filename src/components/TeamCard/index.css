@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.team-logo {
+  height: 150px;
+}
+.team-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+  background-color: grey;
+  margin: 10px 30px 20px 30px;
+  border-radius: 10px;
+  padding: 30px;
+  flex-grow: 1;
+}
+p {
+  color: #ffffff;
+  font-size: 32px;
+}
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}

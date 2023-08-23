@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.home-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  height: 60px;
+}
+.heading {
+  color: #ffffff;
+}
+.teams-container {
+  width: 100%;
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 50px;
+}
